@@ -1,4 +1,4 @@
-# INFO6205 - Assignment
+# INFO6205 - Assignments
 
 Assignment 01 - RandomWalk  
 
