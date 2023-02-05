@@ -35,8 +35,6 @@ public class InsertionSortDriver {
         x = bm.run(arr, m);
         System.out.println("Ordered Array: " + x + "ms");
 
-        // for(int s : arr) System.out.print(s + " ");
-
         // Partially-ordered Array
         bm = new Benchmark_Timer<Integer[]>(
                 "Partially-ordered Array",
