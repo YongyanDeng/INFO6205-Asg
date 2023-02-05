@@ -5,8 +5,6 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * Class which is able to time the running of functions.
  */
@@ -75,7 +73,7 @@ public class Timer {
         }
         final double result = meanLapTime();
         resume();
-        return result - 10;
+        return result;
         // END 
     }
 
@@ -203,7 +201,6 @@ public class Timer {
     private static long getClock() {
         // FIXME by replacing the following code
         return System.nanoTime();
-        // return TimeUnit.NANOSECONDS.convert(System.currentTimeMillis(), TimeUnit.MILLISECONDS);
         // END 
     }
 
@@ -217,7 +214,6 @@ public class Timer {
     private static double toMillisecs(long ticks) {
         // FIXME by replacing the following code
         return ticks / 1e6;
-        // return TimeUnit.MILLISECONDS.convert(ticks, TimeUnit.NANOSECONDS);
         // END 
     }
 
