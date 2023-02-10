@@ -8,7 +8,7 @@ import edu.neu.coe.info6205.util.Benchmark_Timer;
 
 public class InsertionSortDriver {
     public static void main(String[] args) {
-        int n = 16000, m = 3;
+        int n = 1000, m = 10;
         Integer[] arr = arrayCreate(n);
 
         // Random Array
