@@ -62,7 +62,9 @@ public class BaseHelper<X extends Comparable<X>> implements Helper<X> {
     }
 
     public boolean sorted(X[] xs) {
-        for (int i = 1; i < xs.length; i++) if (xs[i - 1].compareTo(xs[i]) > 0) return false;
+        for (int i = 1; i < xs.length; i++)
+            if (xs[i - 1].compareTo(xs[i]) > 0)
+                return false;
         return true;
     }
 

@@ -9,3 +9,5 @@ Assignment 03 - Timer & InsertSort & InsertSortDriver(/test/java/edu.neu.coe.inf
 Assignment 04 - Height-weighted Quick Union with Path Compression(/src/main/java/edu.neu.coe.info6205/union_find/HWQUPC_Solution.java)
 
 Assignment 05 - Parallel Sorting
+
+Assignment 06 - Sort Algorithm & Instruments(/src/test/java/edu.neu.coe.info6205/sort/)
